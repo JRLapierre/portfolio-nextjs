@@ -1,29 +1,19 @@
-# Rôle éco-conçu de Next.js dans la conception de sites Internet
+# Rôle écologique de NextJS dans la conception de sites Internet
 
-Next.js peut jouer un rôle significatif dans la réalisation de sites Internet éco-conçus en intégrant diverses fonctionnalités et bonnes pratiques. Voici quelques points clés à considérer :
+## Rendu côté serveur (SSR) et rendu statique :
+NextJS génère les différentes pages possibles en static côté serveur, ce qui permet de limiter la charge pour le client et d'envoyer des pages HTML simplifiés au maximum
 
-## 1. Rendu côté serveur (SSR) et rendu statique :
-Next.js permet le rendu côté serveur (SSR) et statique des pages. Le SSR génère dynamiquement les pages côté serveur pour chaque requête, réduisant la charge côté client. Le rendu statique génère des pages HTML lors de la construction, minimisant les calculs côté client lors des visites.
+## Optimisation des images :
+NextJS permet d'optimiser la gestion des images, en les compressant et en les mettant en cache, réduisant ainsi le temps de chargement. Même en sachant que cette optimisation est présente, j'ai choisi de ne pas mettres d'images dans le portfolio.
 
-## 2. Optimisation des images :
-Next.js offre des fonctionnalités intégrées pour l'optimisation des images, les compressant automatiquement et les mettant en cache, réduisant ainsi le temps de chargement des pages et la bande passante nécessaire.
+## Pré-chargement des pages :
+NextJS peut pré-charger les pages pendant la navigation, permettant de gagner du temps lors du changement de page.
 
-## 3. Code splitting :
-Le code splitting de Next.js permet de charger uniquement le code nécessaire pour une page spécifique, évitant le téléchargement inutile de ressources et réduisant la consommation de bande passante.
+## Monitoring des performances :
+NextJS permet de surveiller les performances du site, aidant à l'identification des goulots d'étranglement afin que les développeurs puissent optimiser.
 
-## 4. Pré-chargement des pages :
-Next.js peut pré-charger les pages pendant la navigation, améliorant l'expérience utilisateur en réduisant les temps de chargement et évitant le téléchargement excessif de ressources inutiles.
-
-## 5. Gestion automatique des ressources :
-L'infrastructure de Next.js gère automatiquement la mise en cache des pages, la distribution mondiale des contenus, et peut être déployée sur des CDN, améliorant la rapidité d'accès aux pages tout en optimisant l'utilisation des ressources.
-
-## 6. Monitoring des performances :
-Next.js offre des outils intégrés et des options pour surveiller les performances des sites, permettant aux développeurs d'identifier les goulots d'étranglement et d'optimiser leurs sites pour une meilleure efficacité énergétique.
-
-## 7. Optimisation SEO :
-Next.js facilite la mise en place de bonnes pratiques en matière de référencement (SEO), contribuant à une meilleure visibilité sans nécessiter une surutilisation de ressources publicitaires.
-
-En adoptant ces fonctionnalités, Next.js peut contribuer à la création de sites Internet éco-conçus, consommant moins de ressources, réduisant les temps de chargement et offrant une expérience utilisateur améliorée.
+## Optimisation SEO :
+NextJS facilite la mise en place de bonnes pratiques en matière de référencement, contribuant à une meilleure visibilité sans nécessiter une surutilisation de ressources publicitaires.
 
 
 # Eco-conception du site web
